@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moofs"
+version = "0.1.0"
+description = "Multi-objective feature selection with a scikit-learn API: MOFS-RFGA, NSGA-II, Pareto-front visualization and PlatEMO-compatible metrics"
+readme = "README.md"
+authors = [{ name = "Herman Motcheyo" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+keywords = ["feature-selection", "multi-objective", "nsga2", "spea2", "moead", "sparseea", "pso", "relieff", "benchmark"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+    "numpy>=1.21",
+    "pandas>=1.3",
+    "scikit-learn>=1.0",
+    "matplotlib>=3.5",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "build", "twine"]
+docs = ["mkdocs>=1.6", "mkdocs-material>=9.5", "mkdocstrings[python]>=0.25"]
+
+[project.urls]
+Homepage = "https://github.com/Herman-Motcheyo/moofs"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

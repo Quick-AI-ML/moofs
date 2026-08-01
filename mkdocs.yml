@@ -1,0 +1,34 @@
+site_name: moofs
+site_description: Multi-Objective Optimization for Feature Selection
+repo_url: https://github.com/Herman-Motcheyo/moofs
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: deep purple
+      toggle: { icon: material/brightness-7, name: Dark mode }
+    - scheme: slate
+      primary: deep purple
+      toggle: { icon: material/brightness-4, name: Light mode }
+nav:
+  - Home: index.md
+  - Getting started: getting_started.md
+  - Algorithms:
+      - MOFS-RFGA: algorithms/mofs_rfga.md
+      - NSGA-II: algorithms/nsga2.md
+  - API reference: api.md
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: numpy
+markdown_extensions:
+  - admonition
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - tables
