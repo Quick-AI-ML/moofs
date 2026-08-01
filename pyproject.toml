@@ -7,7 +7,7 @@ name = "moofs"
 version = "0.1.0"
 description = "Multi-objective feature selection with a scikit-learn API: MOFS-RFGA, NSGA-II, Pareto-front visualization and PlatEMO-compatible metrics"
 readme = "README.md"
-authors = [{ name = "Herman Motcheyo" }]
+authors = [{ name = "Herman Tcheneghon Motcheyo" }]
 license = { text = "MIT" }
 requires-python = ">=3.9"
 keywords = ["feature-selection", "multi-objective", "nsga2", "spea2", "moead", "sparseea", "pso", "relieff", "benchmark"]

@@ -1,6 +1,6 @@
 site_name: moofs
 site_description: Multi-Objective Optimization for Feature Selection
-repo_url: https://github.com/Herman-Motcheyo/moofs
+repo_url: https://github.com/Quick-AI-ML/moofs
 theme:
   name: material
   features:
