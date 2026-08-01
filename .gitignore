@@ -232,6 +232,3 @@ __marimo__/
 .streamlit/secrets.toml
 
 docs/
-src/ 
-tests/
-examples/
