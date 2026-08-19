@@ -1,5 +1,15 @@
-# moofs
+# [moofs](https://quick-ai-ml.github.io/moofs/)
 
+![Banner Image](https://github.com/Quick-AI-ML/moofs/raw/main/docs/assets/banner.jpeg)
+
+[![PyPi Version](https://img.shields.io/pypi/v/moofs)](https://pypi.org/project/moofs/)
+[![Documentation](https://img.shields.io/badge/docs-latest-blue)](https://quick-ai-ml.github.io/moofs/)
+[![GitHub Stars](https://img.shields.io/github/stars/Quick-AI-ML/moofs?style=social)](https://github.com/Quick-AI-ML/moofs)
+[![License](https://img.shields.io/github/license/Quick-AI-ML/moofs)](https://github.com/Quick-AI-ML/moofs/blob/main/LICENSE)
+
+**Multi-Objective Optimization for Feature Selection**
+
+A Python library for multi-objective feature selection with a unified, scikit-learn compatible API. `moofs` searches for the best trade-offs between **classification error** and **number of selected features**, returns the full Pareto front, and lets you pick the subset that fits your needs.
 **Multi-Objective Optimization for Feature Selection**
 
 A Python library for multi-objective feature selection with a unified, scikit-learn compatible API. `moofs` searches for the best trade-offs between **classification error** and **number of selected features**, returns the full Pareto front, and lets you pick the subset that fits your needs.
