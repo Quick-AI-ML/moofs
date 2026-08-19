@@ -4,12 +4,7 @@
 (MOFS) algorithms, built around a unified, scikit-learn compatible API.
 
 <figure markdown>
-  ![Pareto fronts obtained by MOFS-RFGA and NSGA-II on the Breast Cancer (WDBC) dataset](assets/pareto_front_example.png){ width="640" }
-  <figcaption>
-    Pareto fronts returned by <code>moofs</code> on the Breast Cancer (WDBC)
-    dataset. Each point is a feature subset; no point on a front is both
-    smaller <em>and</em> more accurate than another on the same front.
-  </figcaption>
+  ![Moofs banner](assets/banner.jpeg){ width="100%" }
 </figure>
 ## The problem
 
